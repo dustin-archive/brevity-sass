@@ -1,0 +1,39 @@
+@import 'block';
+@import 'inline';
+@import 'inline-block';
+@import 'list-item';
+@import 'none';
+@import 'table';
+
+$button:
+  'button',
+  'input[type="button"]',
+  'input[type="reset"]',
+  'input[type="submit"]';
+
+$text:
+  'input[type="password"]',
+  'input[type="reset"]',
+  'input[type="submit"]',
+  'input[type="text"]';
+
+$code:
+  'code',
+  'kbd',
+  'pre',
+  'samp';
+
+// is this complete?
+$focusable:
+  'a',
+  'button',
+  'details',
+  'input',
+  'select',
+  'textarea';
+
+$prefixes:
+  '-moz-',
+  '-ms-',
+  '-o-',
+  '-webkit-';
