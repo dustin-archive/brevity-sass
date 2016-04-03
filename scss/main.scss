@@ -1,9 +1,9 @@
-@import 'block';
-@import 'inline';
-@import 'inline-block';
-@import 'list-item';
-@import 'none';
-@import 'table';
+@import 'display/block';
+@import 'display/inline';
+@import 'display/inline-block';
+@import 'display/list-item';
+@import 'display/none';
+@import 'display/table';
 
 $button:
   'button',
