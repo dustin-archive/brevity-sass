@@ -23,14 +23,22 @@ $code:
   'pre',
   'samp';
 
-// is this complete?
 $focusable:
-  'a',
+  'a[href]',
+  'area[href]',
   'button',
   'details',
   'input',
   'select',
-  'textarea';
+  'textarea',
+
+  '[contentEditable=""]',
+  '[contentEditable="true"]',
+
+  '[tabindex]',
+
+  ':not(tabindex^"-")',
+  ':not([disabled])';
 
 $prefixes:
   '-moz-',
