@@ -35,6 +35,7 @@ $focusable:
 
   '[contentEditable=""]',
   '[contentEditable="true"]',
+  '[contentEditable="true" i]',
 
   '[tabindex]:not([tabindex^="-"])',
   ':not([disabled])';
