@@ -29,15 +29,14 @@ $focusable:
   'button',
   'details',
   'input',
+  'iframe',
   'select',
   'textarea',
 
   '[contentEditable=""]',
   '[contentEditable="true"]',
 
-  '[tabindex]',
-
-  ':not(tabindex^"-")',
+  '[tabindex]:not([tabindex^="-"])',
   ':not([disabled])';
 
 $prefixes:
